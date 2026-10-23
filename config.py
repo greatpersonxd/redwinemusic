@@ -15,7 +15,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "")
 BOT_USERNAME = getenv("BOT_USERNAME", "")
 BOT_NAME = getenv("BOT_NAME", "")
 ASSUSERNAME = getenv("ASSUSERNAME", "")
-BOT_LINK = getenv("BOT_LINK", "https://t.me/royal_musics_bot")
+BOT_LINK = getenv("BOT_LINK", "https://t.me/yukkivibebot")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 
@@ -37,10 +37,10 @@ LOGGER_ID = int(getenv("LOGGER_ID", "0"))
 ERROR_LOGGER_ID = int(getenv("ERROR_LOGGER_ID", "-1004392214389"))
 LOGGER_2_ID = int(getenv("LOGGER_2_ID", "-1003255930328"))
 
-OWNER_ID = int(getenv("OWNER_ID", "8418584090"))
+OWNER_ID = int(getenv("OWNER_ID", "7520092354"))
 
 # 🟢 THE FIX: SUDOERS LIST ADDED HERE WITH YOUR IDS
-SUDOERS = [8418584090, 8723235165]
+SUDOERS = [7520092354, 7520092354]
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -52,9 +52,9 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/betabot_hub")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricibke")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/betabot_support")
-GITHUB = getenv("GITHUB", "https://t.me/sukoon_s")
+GITHUB = getenv("GITHUB", "https://t.me/greatpersonxd")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
