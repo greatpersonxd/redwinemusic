@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ -x "${APP_DIR}/.venv/bin/python" ]]; then
+  PYTHON_BIN="${APP_DIR}/.venv/bin/python"
+else
+  PYTHON_BIN="${PYTHON_BIN:-python3}"
+fi
+
+cd "${APP_DIR}"
+exec "${PYTHON_BIN}" -m SHIVMUSIC
